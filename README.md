@@ -14,9 +14,7 @@ You should probably know a bit of LaTeX. There will be times when you need to in
 ### Is this guaranteed to produce a properly formatted thesis?
 No, it's not, but it did work for me and I've tried to ensure it will work for you. You should definitely review the UBC thesis [formatting requirements](https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/formatting-requirements). Also, submit your thesis for [pre-review](https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/pre-reviews) well ahead of any deadlines to catch any formatting issues.
 
-Also, there's probably a better way to address many of the probab
-
-### 
+Also, there's probably a better way to accomplish many of the formatting intricacies than I've done in the template. That's just what worked for me.
 
 ### Where is your thesis?
 You can find my PhD thesis, *T1 relaxation and inhomogeneous magnetization transfer in brain : physics and applications*, [here](https://dx.doi.org/10.14288/1.0375841)
@@ -27,3 +25,5 @@ I've included an example refs.bib file. You should make your own with a referenc
 
 ### Step 2: Learn a bit about LyX
 You can probably figure this out as you go with a bit of Googling. However, I recommend taking a look at *Essentials of LyX* tutorial (under the tutorial list on [this page](https://wiki.lyx.org/LyX/Tutorials)). Also, this template makes heavy use of multidoc, so have a look through that [FAQ](https://wiki.lyx.org/FAQ/Multidoc).
+
+### Step 3: Download the template
