@@ -16,6 +16,9 @@ No, it's not, but it did work for me and I've tried to ensure it will work for y
 
 Also, there's probably a better way to accomplish many of the formatting intricacies than I've done in the template. That's just what worked for me.
 
+### I want to report a bug
+Leave a comment here on Github, I'll try to get to it.
+
 ### Where is your thesis?
 You can find my PhD thesis, *T1 relaxation and inhomogeneous magnetization transfer in brain : physics and applications*, [here](https://dx.doi.org/10.14288/1.0375841)
 
@@ -37,3 +40,6 @@ Go *Document* -> *view (pdflatex)*. If all goes well, you'll see a pdf of the te
 
 ### Step 6: Read through the document in LyX
 I've included a lot of LyX notes. They are in yellow boxes that say Note - click to open them up. thesis.lyx collects all the separate files together, click on the inputs or includes to open up the other files. If that makes no sense to you, read the multidoc tutorial (see Step 2).
+
+### Step 7: Write your thesis
+Add or remove files as you need, including them in thesis.lyx. You will be able to render and view each chapter individually as well. Good luck! There's no magic formula to writing a thesis except to just write it.
