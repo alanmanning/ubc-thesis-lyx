@@ -3,7 +3,7 @@
 ## About this template
 
 ### What is this?
-This is a template for Doctoral and Masters theses at the University of British Columbia. This template is for use with [LyX](https://www.lyx.org/), which is built upon LaTeX. I wrote my Masters thesis in LaTeX and found it to be a painful endeavour. I wrote my PhD thesis in LyX and it was significantly smoother.
+This is a template for Doctoral and Masters theses at the University of British Columbia. This template is for use with [LyX](https://www.lyx.org/), an open-source document preprocessor which is built upon LaTeX. I wrote my Masters thesis in LaTeX and found it to be a painful endeavour. I wrote my PhD thesis in LyX and it was significantly smoother.
 
 ### Who should use this?
 Anyone who knows a bit of LaTeX but wants to try something a little easier (at least, I found it easier).
@@ -14,4 +14,16 @@ You should probably know a bit of LaTeX. There will be times when you need to in
 ### Is this guaranteed to produce a properly formatted thesis?
 No, it's not, but it did work for me and I've tried to ensure it will work for you. You should definitely review the UBC thesis [formatting requirements](https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/formatting-requirements). Also, submit your thesis for [pre-review](https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/pre-reviews) well ahead of any deadlines to catch any formatting issues.
 
+Also, there's probably a better way to address many of the probab
+
+### 
+
+### Where is your thesis?
+You can find my PhD thesis, *T1 relaxation and inhomogeneous magnetization transfer in brain : physics and applications*, [here](https://dx.doi.org/10.14288/1.0375841)
+
 ## Usage
+### Step 1: Set up a bibliography file
+I've included an example refs.bib file. You should make your own with a reference manager. I used [JabRef](http://www.jabref.org/) which was great (and free).
+
+### Step 2: Learn a bit about LyX
+You can probably figure this out as you go with a bit of Googling. However, I recommend taking a look at *Essentials of LyX* tutorial (under the tutorial list on [this page](https://wiki.lyx.org/LyX/Tutorials)). Also, this template makes heavy use of multidoc, so have a look through that [FAQ](https://wiki.lyx.org/FAQ/Multidoc).
