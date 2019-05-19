@@ -31,3 +31,9 @@ Click on **Clone or Download** above then **Download zip**
 
 ### Step 4: Change the document titles
 Open thesis.lyx. On the *Document* menu go to *Settings* then click *PDF Properties*. Fill out the Header information.
+
+### Step 5: Try to render it
+Go *Document* -> *view (pdflatex)*. If all goes well, you'll see a pdf of the template come up. If not, you'll have to debug some latex errors... That will 95% be because of some missing packages. Make sure they're installed then try again.
+
+### Step 6: Read through the document in LyX
+I've included a lot of LyX notes. They are in yellow boxes that say Note - click to open them up. thesis.lyx collects all the separate files together, click on the inputs or includes to open up the other files. If that makes no sense to you, read the multidoc tutorial (see Step 2).
