@@ -24,6 +24,10 @@ You can find my PhD thesis, *T1 relaxation and inhomogeneous magnetization trans
 I've included an example refs.bib file. You should make your own with a reference manager. I used [JabRef](http://www.jabref.org/) which was great (and free).
 
 ### Step 2: Learn a bit about LyX
-You can probably figure this out as you go with a bit of Googling. However, I recommend taking a look at *Essentials of LyX* tutorial (under the tutorial list on [this page](https://wiki.lyx.org/LyX/Tutorials)). Also, this template makes heavy use of multidoc, so have a look through that [FAQ](https://wiki.lyx.org/FAQ/Multidoc).
+You can probably figure this out as you go with a bit of Googling. However, I recommend taking a look at *Essentials of LyX* tutorial (under the tutorial list on [this page](https://wiki.lyx.org/LyX/Tutorials)). Also, this template makes heavy use of multidoc, so have a look through that [FAQ](https://wiki.lyx.org/FAQ/Multidoc). It explains the differences between includes, inputs, and why there is a preamble.tex file.
 
 ### Step 3: Download the template
+Click on **Clone or Download** above then **Download zip**
+
+### Step 4: Change the document titles
+Open thesis.lyx. On the *Document* menu go to *Settings* then click *PDF Properties*. Fill out the Header information.
