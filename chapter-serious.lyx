@@ -1,0 +1,2214 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass report
+\begin_preamble
+\input{preamble}
+\end_preamble
+\options refpage,intoc,bibliography=totoc,index=totoc,BCOR7.5mm,captions=tableheading
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package babel
+\inputencoding iso8859-15
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_title "The LyX User's Guide"
+\pdf_author "LyX Team"
+\pdf_subject "LyX"
+\pdf_keywords "LyX"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=black,citecolor=black,urlcolor=blue,filecolor=blue,pdfpagelayout=OneColumn,pdfnewwindow=true,pdfstartview=XYZ,plainpages=false"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch ChildOnly
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2cm
+\rightmargin 2.5cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Now things get serious
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:serious"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The first section in your serious chapter
+\end_layout
+
+\begin_layout Standard
+Well you've finished with the introduction and everything
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+now you've (maybe) got your first serious chapter, heavy on content.
+ I've edited this chapter only slightly from my thesis so you can see how
+ it appears in Lyx.
+ 
+\end_layout
+
+\begin_layout Section
+The first part of my second chapter
+\end_layout
+
+\begin_layout Standard
+Nuclei with unpaired protons or neutrons have nonzero nuclear spins.
+ This leads to a nuclear magnetic moment, 
+\begin_inset Formula $\boldsymbol{\mu}=\gamma(\hbar\mathbf{I})$
+\end_inset
+
+, where 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is the gyromagnetic ratio
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\gamma$"
+description "nuclear gyromagnetic ratio"
+literal "true"
+
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{I}$
+\end_inset
+
+ the nuclear spin.
+ (We will use the convention of unitless spin operators, hence the explicit
+ factor of 
+\begin_inset Formula $\hbar$
+\end_inset
+
+.) Nuclei like this interact with magnetic fields via the Zeeman interaction.
+ The Zeeman Hamiltonian is
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In this chapter we will cite references only when necessary, since the content
+ here parallels most introductory textbooks.
+ Sources which the author relied on for this content were Duer 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Duer2005"
+literal "true"
+
+\end_inset
+
+, Slichter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Slichter1990"
+literal "true"
+
+\end_inset
+
+, Schmidt-Rohr & Spiess 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Schmidt-Rohr1994"
+literal "true"
+
+\end_inset
+
+, and a useful report by Goldman 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Goldman1992"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\hbar\hat{H}_{Z}=-\boldsymbol{\mu}\cdot\mathbf{B}_{0}.
+\]
+
+\end_inset
+
+The units of 
+\begin_inset Formula $\hat{H}_{Z}$
+\end_inset
+
+ are rad/s and 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+ is the main spectrometer field, which is taken to be in the 
+\begin_inset Formula $z$
+\end_inset
+
+ direction: 
+\begin_inset Formula $\mathbf{B}_{0}=B_{0}\hat{z}$
+\end_inset
+
+.
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\mathbf{B}_0$"
+description "NMR/MRI main magnetic field"
+literal "true"
+
+\end_inset
+
+ Hence, the Zeeman Hamiltonian (in rad/s) is
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\hat{H}_Z$"
+description "Zeeman Hamiltonian"
+literal "true"
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align}
+\hat{H}_{Z} & =-\gamma B_{0}\hat{I}_{z}\label{eq:theory:Zeeman-hamiltonian}\\
+ & =\omega_{0}\hat{I}_{z},\nonumber 
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\omega_{0}=-\gamma B_{0}$
+\end_inset
+
+ is the Larmor frequency of precession.
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\omega_0$"
+description "Larmor frequency"
+literal "true"
+
+\end_inset
+
+ This identification anticipates the connection to the classical theory
+ of precession.
+\end_layout
+
+\begin_layout Standard
+With an expression for the Zeeman energy, it is illuminating to calculate
+ the thermal polarization in a typical NMR spectrometer or MRI scanner 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ field.
+ Consider protons
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+When NMR and MRI physicists say 
+\begin_inset Quotes eld
+\end_inset
+
+protons
+\begin_inset Quotes erd
+\end_inset
+
+, they are always referring to a 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H nucleus.
+ By the same token, 
+\begin_inset Quotes eld
+\end_inset
+
+spins
+\begin_inset Quotes erd
+\end_inset
+
+ almost always refer to nuclear spins.
+\end_layout
+
+\end_inset
+
+, which, as spin-
+\begin_inset Formula $\tfrac{1}{2}$
+\end_inset
+
+ particles, have 
+\begin_inset Formula $I=\tfrac{1}{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $m=\pm\tfrac{1}{2}$
+\end_inset
+
+.
+ The energies of these two eigenstates are
+\begin_inset Formula $\left\langle \pm\tfrac{1}{2}|\hat{H}_{Z}|\pm\tfrac{1}{2}\right\rangle =\pm\tfrac{1}{2}\omega_{0}$
+\end_inset
+
+ and the energy difference is 
+\begin_inset Formula $\Delta E=\hbar\omega_{0}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $N_{+}+N_{-}$
+\end_inset
+
+ is the total number of spins in a sample, with 
+\begin_inset Formula $N_{\pm}$
+\end_inset
+
+ representing the number in the 
+\begin_inset Formula $|\pm\tfrac{1}{2}\rangle$
+\end_inset
+
+ state, then the relative polarization is
+\begin_inset Formula 
+\begin{align*}
+\frac{N_{+}-N_{-}}{N_{+}+N_{-}} & \approx\tfrac{1}{2}\left(1-\frac{N_{-}}{N_{+}}\right)\\
+ & =\tfrac{1}{2}\left(1-\exp(-\Delta E/k_{B}T)\right)\\
+ & \approx\frac{\Delta E}{2k_{B}T},
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $k_{B}$
+\end_inset
+
+ is Boltzmann's constant and 
+\begin_inset Formula $T$
+\end_inset
+
+ is the temperature in Kelvin.
+ In a 100 MHz (2.3 T) field
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field strengths of NMR spectrometers is typically stated in the Larmor
+ frequency (in Hz) of protons in that field.
+ Conversely, in MRI these are usually given in Tesla.
+\end_layout
+
+\end_inset
+
+ at 300 K, this is only 8 ppm for protons
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+a very small polarization indeed! We can compare this to the typical polarizatio
+ns seen in Electron Spin Resonance (ESR).
+ For protons, 
+\begin_inset Formula $\gamma/2\pi=42.577$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+MHz
+\begin_inset space \thinspace{}
+\end_inset
+
+/
+\begin_inset space \thinspace{}
+\end_inset
+
+T, and for an unpaired electron, 
+\begin_inset Formula $\gamma_{e}/2\pi=28.025$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+GHz
+\begin_inset space \thinspace{}
+\end_inset
+
+/
+\begin_inset space \thinspace{}
+\end_inset
+
+T.
+ The thermal polarization of a sample with unpaired electrons is about 
+\begin_inset Formula $\gamma_{e}/\gamma\approx658\times$
+\end_inset
+
+ higher.
+\end_layout
+
+\begin_layout Standard
+The relative weakness of the nuclear Zeeman effect dictates the experimental
+ constraints and features of NMR and MRI.
+ Without 
+\begin_inset Formula $B_{0}\gtrsim0.1$
+\end_inset
+
+ T, performing NMR and MRI experiments is difficult.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+But not impossible.
+ In fact, NMR and MRI has been performed in the Earth's magnetic field (
+\emph on
+eg.
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+see references 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Halse2006,Michal2010"
+literal "true"
+
+\end_inset
+
+).
+ Although weak, the Earth's magnetic field is extremely homogeneous.
+ However, Earth's Field NMR and MRI are of limited practical utility, and
+ typically can't observe any nuclei except 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H.
+\end_layout
+
+\end_inset
+
+ For MRI, the range of nuclei which can be imaged in clinically reasonable
+ times is limited to 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H and a few others (
+\emph on
+eg.
+\emph default
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $^{23}$
+\end_inset
+
+Na and 
+\begin_inset Formula $^{31}$
+\end_inset
+
+P).
+ All of these are abundant enough in the human body to be imaged directly.
+ However, protons are the most common nuclei to image due to their superior
+ signal to noise ratio (SNR
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SNR"
+description "Signal to Noise Ratio"
+literal "true"
+
+\end_inset
+
+) in biological samples.
+ There are three reasons for this.
+ First, with tissue being ~70% water, they are ubiquitous in biochemical
+ systems.
+ Second, NMR SNR is approximately proportional to 
+\begin_inset Formula $\omega_{0}^{2}$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hoult1976,Peck1995"
+literal "true"
+
+\end_inset
+
+, so it makes sense to use nuclei with high Larmor frequencies.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In MRI, the SNR is more complicated.
+ It is very sensitive to the sample geometry and composition.
+ Also, because repeated scans are required to cover all of k-space, it doesn't
+ make sense to speak of the SNR for a single acquisition.
+ Furthermore, the image is typically made from the magnitude of the NMR
+ signal, and this has a Rician noise profile.
+ See Macovski 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Macovski1996"
+literal "true"
+
+\end_inset
+
+ and Ocali & Atalar 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ocali1998"
+literal "true"
+
+\end_inset
+
+ for more details.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H also leads in this category, for only the extremely rare 
+\begin_inset Formula $^{3}$
+\end_inset
+
+H has a higher 
+\begin_inset Formula $\gamma$
+\end_inset
+
+.
+ Finally, naturally occurring Hydrogen is isotopically pure, with ~99.98%
+ of all H atoms containing 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H nuclei 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bruker2012"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+On a more fundamental level, the weak nuclear Zeeman effect sets NMR apart
+ from many other forms of spectroscopy because of its unique method of relaxatio
+n.
+ Unlike optical spectroscopy, excited states in NMR do not relax via stimulated
+ and/or spontaneous emission (see Hoult 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hoult2009"
+literal "true"
+
+\end_inset
+
+ and references therein).
+ Rather, relaxation is driven by environmental fluctuations, 
+\emph on
+i.e
+\emph default
+.
+\begin_inset space ~
+\end_inset
+
+coupling to the lattice.
+ Therefore, the relaxation processes in NMR and MRI can be a useful window
+ into the microscopic structure and motion of a sample.
+ We will have much more to say on this in the following chapters.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+The unique relaxation properties of NMR compared to optical spectroscopy
+ also means the electromagnetic radiation emitted is coherent 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hoult2009,Lynden-Bell1967"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+Because of the nuclear Zeeman effect's low energy, NMR frequencies are in
+ the 1 MHz 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+ 1 GHz range, corresponding to radiation wavelengths of 300
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+--
+\end_layout
+
+\end_inset
+
+0.3 m.
+ How then are MRI scanners capable of sub-millimeter resolution? Even though
+ precessing spins emit radio waves in the far-field limit, NMR and MRI operate
+ in the near-field limit (
+\emph on
+i.e.
+ 
+\emph default
+the distance to the emitters is small or comparable to the wavelength) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Glover2002,Hoult2009,Hoult1976"
+literal "true"
+
+\end_inset
+
+.
+ In this regime, the emission from an ensemble of precessing spins manifests
+ as an oscillating magnetic field which, unlike electromagnetic radiation,
+ does not impose limits on resolution based on wavelength 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hoult2009,Glover2002,Lynden-Bell1967"
+literal "true"
+
+\end_inset
+
+.
+ Correspondingly, the spins are manipulated with magnetic fields oscillating
+ at radio frequencies, and, in MRI, the spatial resolution is instead limited
+ by the strength of the magnetic field gradients 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hoult2000"
+literal "true"
+
+\end_inset
+
+.
+ Obviously, this is the reason for the 
+\begin_inset Quotes eld
+\end_inset
+
+M
+\begin_inset Quotes erd
+\end_inset
+
+ in NMR! In the literature, the transmitted and detected magnetic fields
+ are commonly referred to as 
+\begin_inset Quotes eld
+\end_inset
+
+rf
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "rf"
+description "magnetic fields at radio frequencies"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Magnetization is the macroscopic result of the Zeeman interaction.
+ The equilibrium magnetization in a sample inside a field 
+\begin_inset Formula $\mathbf{B_{0}}$
+\end_inset
+
+ is
+\begin_inset Formula 
+\begin{equation}
+\mathbf{M_{0}}=\chi_{0}\mathbf{B_{0}},\label{eq:theory:M0}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\chi_{0}$
+\end_inset
+
+ is the static magnetic susceptibility.
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\mathbf{M}_0$"
+description "Equilibrium magnetization"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Classical treatment of NMR
+\end_layout
+
+\begin_layout Subsection
+Precession and the rotating frame
+\end_layout
+
+\begin_layout Standard
+The classical picture of NMR is a straightforward way to introduce basic
+ NMR dynamics and experiments.
+ The equations of motion for a magnetization 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ in a field 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+ are
+\begin_inset Formula 
+\begin{equation}
+\frac{d\mathbf{M}}{dt}=\mathbf{M}\times(\gamma\mathbf{B}),\label{eq:theory:dM/dt}
+\end{equation}
+
+\end_inset
+
+which describes the precession of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ around 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+ at a frequency 
+\begin_inset Formula $\omega=-\gamma B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Excluding relaxation, this compact equation contains all the classical dynamics
+ of NMR.
+ It applies whether 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ and/or 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+ are constant or varying.
+ Nonetheless, it isn't terribly straightforward to use in practice.
+ One of the problems with Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+ is that it describes the dynamics of precession in the laboratory frame.
+ Most calculations in NMR are simplified by working in the rotating frame,
+ a coordinate system which rotates around the 
+\begin_inset Formula $z$
+\end_inset
+
+ axis.
+\end_layout
+
+\begin_layout Standard
+Slichter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Slichter1990"
+literal "true"
+
+\end_inset
+
+ has a nice derivation of how vectors are transformed between the lab and
+ rotating frames.
+ Consider an arbitrary vector function 
+\begin_inset Formula $\mathbf{F}(t)=\sum_{i=x,y,z}F_{i}\hat{i}$
+\end_inset
+
+, where the 
+\begin_inset Formula $\hat{i}$
+\end_inset
+
+ unit vectors are aligned with the lab frame.
+ Now, assume that this coordinate frame rotates with an angular velocity
+ 
+\begin_inset Formula $\boldsymbol{\omega}$
+\end_inset
+
+.
+ In this case, the lab frame time rate of change for 
+\begin_inset Formula $\hat{i}$
+\end_inset
+
+ is
+\begin_inset Formula 
+\[
+\frac{d\hat{i}}{dt}=\boldsymbol{\omega}\times\hat{i}.
+\]
+
+\end_inset
+
+The time derivative of 
+\begin_inset Formula $\mathbf{F}(t)$
+\end_inset
+
+ in the lab frame is now more complicated, but gives a useful result:
+\begin_inset Formula 
+\begin{eqnarray}
+\left.\frac{d\mathbf{F}(t)}{dt}\right|_{lab} & = & \sum_{i=x,y,z}\left(\frac{dF_{i}}{dt}\hat{i}+F_{i}\frac{d\hat{i}}{dt}\right)\nonumber \\
+ & = & \sum_{i=x,y,z}\frac{dF_{i}}{dt}\hat{i}+\sum_{i=x,y,z}F_{i}\frac{d\hat{i}}{dt}\nonumber \\
+ & = & \sum_{i=x,y,z}\frac{dF_{i}}{dt}\hat{i}+\boldsymbol{\omega}\times\mathbf{F}(t)\nonumber \\
+ & = & \left.\frac{d\mathbf{F}(t)}{dt}\right|_{rot}+\boldsymbol{\omega}\times\mathbf{F}(t),\label{eq:theory:dft/dt-slichter}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $\left.\frac{d\mathbf{F}(t)}{dt}\right|_{rot}$
+\end_inset
+
+ is the time rate of change in the rotating frame.
+ If we apply this to 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+, then from Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+ we have
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{d\mathbf{M}}{dt}\right|_{lab}= & \mathbf{M}\times(\gamma\mathbf{B})\\
+= & \left.\frac{d\mathbf{M}}{dt}\right|_{rot}-\mathbf{M}\times\boldsymbol{\omega}\\
+\Rightarrow\left.\frac{d\mathbf{M}}{dt}\right|_{rot}= & \mathbf{M}\times(\gamma\mathbf{B}+\boldsymbol{\omega}).
+\end{align*}
+
+\end_inset
+
+And so, in the rotating frame Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+ still applies, provided that we replace 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+ with an effective field
+\begin_inset Formula 
+\begin{equation}
+\mathbf{B}_{\text{eff}}=\mathbf{B}+\frac{\boldsymbol{\omega}}{\gamma}.\label{eq:theory:Beff}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When only 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ is present, by convention the precession axis is taken to be 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+.
+ Hence, in the 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+ direction we have
+\begin_inset Formula 
+\begin{align}
+B_{\text{eff}} & =B_{0}+\frac{\omega}{\gamma}\label{eq:theory:Beff-general}\\
+\Rightarrow\gamma B_{\text{eff}} & =\gamma B_{0}+\omega\nonumber \\
+\omega_{\text{eff}} & =\omega_{0}-\omega.\nonumber 
+\end{align}
+
+\end_inset
+
+Where 
+\begin_inset Formula $\omega_{\text{eff}}=-\gamma B_{\text{eff}}$
+\end_inset
+
+ is the effective precession frequency in the frame rotating at 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\omega=\omega_{0}$
+\end_inset
+
+, then 
+\begin_inset Formula $\omega_{\text{eff}}$
+\end_inset
+
+ and 
+\begin_inset Formula $B_{\text{eff}}$
+\end_inset
+
+ are both zero: the effect of the the main spectrometer field 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+ has been completely removed.
+\end_layout
+
+\begin_layout Standard
+NMR uses a 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field to manipulate the magnetization.
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\mathbf{B}_1$"
+description "NMR/MRI oscillating, transverse magnetic field applied with coils."
+literal "true"
+
+\end_inset
+
+ The 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field is applied in the transverse plane and oscillates at 
+\begin_inset Formula $\omega$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{equation}
+\mathbf{B_{1}}(t)=B_{1}\cos(\omega t+\phi)\hat{x}+B_{1}\sin(\omega t+\phi)\hat{y},\label{eq:theory:B1-lab-frame}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is some arbitrary phase factor.
+ We make no assumptions about 
+\begin_inset Formula $\omega$
+\end_inset
+
+: it could be on or off resonance.
+ It's easiest to analyze the problem in a frame rotating at 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ The time derivative is then
+\begin_inset Formula 
+\begin{align*}
+\left.\frac{d\mathbf{B}_{1}(t)}{dt}\right|_{rot} & =\left.\frac{d\mathbf{B}_{1}(t)}{dt}\right|_{lab}-(\omega\hat{z})\times\mathbf{B}_{1}(t)\\
+ & =B_{1}(\omega-\omega)\sin(\omega t+\phi)\hat{x}+B_{1}(\omega-\omega)\cos(\omega t+\phi)\hat{y},\\
+ & =0.
+\end{align*}
+
+\end_inset
+
+In this frame it appears as a constant magnetic field perpendicular to 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+, around which 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ rotates according to Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+.
+ This rotation around 
+\begin_inset Formula $\mathbf{B}_{1}$
+\end_inset
+
+ is called nutation.
+ Combining this result for 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ with the result for 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ in Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:Beff-general"
+
+\end_inset
+
+, the total effective field in the frame rotating at the frequency of the
+ rf pulse is
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\mathbf{B}_\\text{eff}$"
+description "The total effective field in a rotating frame."
+literal "true"
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\mathbf{B}_{\text{eff}}=\left(B_{0}+\frac{\omega}{\gamma}\right)\hat{z}+B_{1}\hat{x},\label{eq:theory:effective-field-B}
+\end{equation}
+
+\end_inset
+
+where we have chosen the phase of the rf pulse 
+\begin_inset Formula $\phi$
+\end_inset
+
+ such that 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ is along 
+\begin_inset Formula $\hat{x}$
+\end_inset
+
+.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/rotating-frame.pdf
+	lyxscale 200
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:theory:rotating-frame"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Dynamics in a frame rotating at rf pulse frequency.
+\end_layout
+
+\end_inset
+
+Dynamics in a frame rotating at the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ frequency 
+\begin_inset Formula $\omega$
+\end_inset
+
+.
+ Field strengths are indicated in units of rad/s (see Eqs.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:effective-field-B"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:effective-field-omega"
+
+\end_inset
+
+).
+ (A) The effective field, 
+\begin_inset Formula $\boldsymbol{\omega}_{\text{eff}}$
+\end_inset
+
+, composed of the effective main field 
+\begin_inset Formula $\omega_{0}-\omega$
+\end_inset
+
+ and the amplitude of the rf field, 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+.
+ (B) The magnetization 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ precesses around the effective field.
+ After Fig.
+\begin_inset space ~
+\end_inset
+
+2.4 in Slichter 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Slichter1990"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Another way to write this is
+\begin_inset Formula 
+\begin{equation}
+\mathbf{\boldsymbol{\omega}}_{\text{eff}}=(\omega_{0}-\omega)\hat{z}+\omega_{1}\hat{x}\label{eq:theory:effective-field-omega}
+\end{equation}
+
+\end_inset
+
+with
+\begin_inset Formula 
+\begin{equation}
+\omega_{1}=\left|\gamma\right|B_{1}\label{eq:omega1_def}
+\end{equation}
+
+\end_inset
+
+as the amplitude of the rf pulse in rad/s
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+which, by convention, is always positive.
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$\\omega_1$"
+description "RF ($B_1$) field amplitude in rad/s"
+literal "true"
+
+\end_inset
+
+ The dynamics of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ in this frame are shown in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:theory:rotating-frame"
+
+\end_inset
+
+.
+ If the rf pulse is on resonance (
+\begin_inset Formula $\omega=\omega_{0})$
+\end_inset
+
+, the effect of 
+\begin_inset Formula $B_{0}$
+\end_inset
+
+ is completely removed.
+ 
+\end_layout
+
+\begin_layout Standard
+In the preceding discussion, we have glossed over the issue of the sign
+ of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ and the direction of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+'s precession and nutation.
+ Most NMR-active nuclei, including 
+\begin_inset Formula $^{1}$
+\end_inset
+
+H and 
+\begin_inset Formula $^{13}$
+\end_inset
+
+C, have 
+\begin_inset Formula $\gamma>0$
+\end_inset
+
+.
+ Referring to Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+ and applying the right-hand rule, this implies a clockwise precession of
+ 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ about 
+\begin_inset Formula $\mathbf{B}$
+\end_inset
+
+, which is a negative angular frequency.
+ Indeed, if 
+\begin_inset Formula $\mathbf{B=B_{0}}$
+\end_inset
+
+, then the definition 
+\begin_inset Formula $\mathbf{\omega_{0}}=-\gamma B_{0}$
+\end_inset
+
+ gives a negative Larmor frequency, as required.
+ If 
+\begin_inset Formula $\gamma<0$
+\end_inset
+
+ (
+\emph on
+eg.
+\begin_inset space ~
+\end_inset
+
+
+\emph default
+
+\begin_inset Formula $^{15}$
+\end_inset
+
+N), then the precession of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ is in the counter-clockwise direction and 
+\begin_inset Formula $\omega_{0}>0$
+\end_inset
+
+.
+ Regarding nutation in the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field, the definition of 
+\begin_inset Formula $\omega_{1}$
+\end_inset
+
+ (Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:omega1_def"
+
+\end_inset
+
+) means it will always be positive
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+independent of the sign of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+implying a counter-clockwise nutation of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ about the effective field in the rotating frame.
+ Experimentally, we could ensure 
+\begin_inset Formula $\omega_{1}>0$
+\end_inset
+
+ by appropriately selecting 
+\begin_inset Formula $\phi$
+\end_inset
+
+, the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ rf pulse phase.
+ 
+\end_layout
+
+\begin_layout Standard
+In practice, it is rarely necessary to keep track of the correct precession
+ and nutation directions in the analysis of single-nuclei experiments, so
+ long as one is consistent.
+ For a deeper discussion, the reader is referred to Levitt's papers on the
+ subject 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Levitt1997,Levitt2000"
+literal "true"
+
+\end_inset
+
+.
+ For the sake of clarity, we will assume counter-clockwise nutation of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ about the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field for the remainder of this thesis.
+\end_layout
+
+\begin_layout Subsection
+The Bloch equations
+\end_layout
+
+\begin_layout Standard
+Before getting too far into the discussion of how rf pulses (the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field) affect the spins, the Bloch equations should be introduced.
+ These phenomenological equations incorporate relaxation into the dynamics
+ described by Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:dM/dt"
+
+\end_inset
+
+.
+ The Bloch equations are approximate and do not accurately describe the
+ dynamics of NMR in all situations
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+---
+\end_layout
+
+\end_inset
+
+only in systems of isolated spin-
+\begin_inset Formula $\tfrac{1}{2}$
+\end_inset
+
+ nuclei in low-viscosity solutions are they exact.
+ Still, they provide an excellent framework for intuitive understanding.
+ And, even where they aren't rigorously accurate, they can often be modified
+ to model the situation anyway.
+\end_layout
+
+\begin_layout Standard
+The Bloch equations in the lab frame are
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}\frac{dM_{z}}{dt} & =\frac{M_{0}-M_{z}}{T_{1}}+\gamma(\mathbf{M}\times\mathbf{B})_{z}\\
+\frac{dM_{x,y}}{dt} & =\gamma(\mathbf{M}\times\mathbf{B})_{x,y}-\frac{M_{x,y}}{T_{2}}.
+\end{aligned}
+\label{eq:theory:bloch-lab}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ is the spin-lattice or longitudinal relaxation time, 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ is the spin-spin or transverse relaxation time, and 
+\begin_inset Formula $T_{2}\le T_{1}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ is a result of the spin-lattice coupling that returns the magnetization
+ to thermal equilibrium 
+\begin_inset Formula $\mathbf{M}_{0}=M_{0}\hat{z}$
+\end_inset
+
+ via
+\begin_inset Formula 
+\begin{equation}
+M_{z}(t)=M_{0}\left(1-\left(1-\frac{M_{z}(0)}{M_{0}}\right)\exp\left(-\frac{t}{T_{1}}\right)\right).\label{eq:theory:T1-recovery-general}
+\end{equation}
+
+\end_inset
+
+There can be no transverse components of magnetization in equilibrium: 
+\begin_inset Formula $M_{x}$
+\end_inset
+
+ and 
+\begin_inset Formula $M_{y}$
+\end_inset
+
+ must decay.
+ They do so exponentially with time constant 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ via
+\begin_inset Formula 
+\begin{equation}
+M_{x,y}(t)=M_{x,y}(0)\exp\left(-\frac{t}{T_{2}}\right).\label{eq:theory:T2-decay}
+\end{equation}
+
+\end_inset
+
+Dephasing of the precessing spins causes 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ relaxation.
+ In practice, we often refer to spin-lattice and spin-spin relaxation as
+ 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ relaxation, even in cases where there is not a single, well-defined value
+ for either.
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$T_2$"
+description "Transverse relaxation time / spin-spin relaxation time"
+literal "true"
+
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$T_1$"
+description "Longitudinal relaxation time / spin-lattice relaxation time"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now, consider the Bloch equations for a sample in an NMR spectrometer under
+ the influence of rf pulses on resonance.
+ In this situation, 
+\begin_inset Formula $\mathbf{B}_{lab}=\mathbf{B}_{0}+\mathbf{B}_{1}(t)$
+\end_inset
+
+, where 
+\begin_inset Formula $\mathbf{B}_{1}(t)$
+\end_inset
+
+ is rotating in the transverse plane at 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+ (Eq.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:theory:B1-lab-frame"
+
+\end_inset
+
+).
+ Following the last section, in the rotating frame this becomes 
+\begin_inset Formula $\mathbf{B}_{rot}=B_{1}\hat{x}$
+\end_inset
+
+, where we have chosen the 
+\begin_inset Formula $x$
+\end_inset
+
+-axis to be the direction of 
+\begin_inset Formula $\mathbf{B}_{1}(0)$
+\end_inset
+
+.
+ Correspondingly, 
+\begin_inset Formula $\mathbf{M}\times\mathbf{B}_{rot}=B_{1}(M_{z}\hat{y}-M_{y}\hat{z})$
+\end_inset
+
+, so the Bloch equations in the rotating frame are
+\begin_inset Formula 
+\begin{equation}
+\begin{aligned}\frac{dM_{z}}{dt} & =\frac{M_{0}-M_{z}}{T_{1}}-\omega_{1}M_{y}\\
+\frac{dM_{y}}{dt} & =\omega_{1}M_{z}-\frac{M_{y}}{T_{2}}\\
+\frac{dM_{x}}{dt} & =0.
+\end{aligned}
+\label{eq:theory:bloch-rot}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+A simple NMR experiment and the Lorentzian lineshape
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:simple-experiment-classical"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figures/nmr-coil-b0-b1.pdf
+	lyxscale 200
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:theory:coil-B1-B0"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The relative orientations of the sample, 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+, and 
+\begin_inset Formula $\mathbf{B_{1}}(t)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+The relative orientation of the sample, 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+, and 
+\begin_inset Formula $\mathbf{B_{1}}(t)$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The relative orientation of 
+\begin_inset Formula $\mathbf{B}_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbf{B}_{1}(t)$
+\end_inset
+
+ to the sample and the transceiver coil is shown in Fig.
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:theory:coil-B1-B0"
+
+\end_inset
+
+.
+ The solenoidal coil style in this figure was used to complete all NMR experimen
+ts in this thesis, though many other coil styles exist.
+\end_layout
+
+\begin_layout Standard
+In thermal equilibrium, the sample has a magnetization 
+\begin_inset Formula $\mathbf{M}_{0}=M_{0}\hat{z}$
+\end_inset
+
+.
+ In a simple NMR experiment, a 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ pulse is applied to tilt 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ away from the 
+\begin_inset Formula $z$
+\end_inset
+
+-axis.
+ Experimentally, this is achieved by applying an oscillating voltage 
+\begin_inset Formula $V(t)$
+\end_inset
+
+ across the coil resonance circuit,
+\begin_inset Formula 
+\[
+V(t)\sim\exp(-i(\omega t+\phi))
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\phi$
+\end_inset
+
+ is phase under the experimenter's control.
+ This causes an oscillating, linearly-polarized 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field,
+\begin_inset Formula 
+\[
+\mathbf{B}_{1}(t)=2B_{1}\cos(\omega t+\phi')\hat{x},
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $2B_{1}$
+\end_inset
+
+ is an amplitude under the control of the experimenter.
+ Regarding the phase factors, 
+\begin_inset Formula $\phi$
+\end_inset
+
+ and 
+\begin_inset Formula $\phi'$
+\end_inset
+
+ vary only by an additive constant for a given sample and experimental set-up.
+ Therefore, the relative phases of multiple 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ pulses (either in the same experiment or in repeated experiments) can be
+ carefully controlled.
+ In other words, the rf pulses used in NMR and MRI pulse sequences are coherent.
+\end_layout
+
+\begin_layout Standard
+The oscillating 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field along the 
+\begin_inset Formula $x$
+\end_inset
+
+-axis may be mathematically decomposed into two counter-rotating fields
+ in the 
+\begin_inset Formula $x$
+\end_inset
+
+-
+\begin_inset Formula $y$
+\end_inset
+
+ plane:
+\begin_inset Formula 
+\begin{align}
+\mathbf{B}_{1}(t) & =2B_{1}\cos(\omega t+\phi')\hat{x}\nonumber \\
+ & =B_{1}\left(\cos(\omega t+\phi')\hat{x}+\sin(\omega t+\phi')\hat{y}\right)+B_{1}\left(\cos(\omega t+\phi')\hat{x}-\sin(\omega t+\phi')\hat{y}\right).\label{eq:theory:B1-counter-rotating}
+\end{align}
+
+\end_inset
+
+Under most circumstances, the field rotating opposite to the precession
+ direction of 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ has negligible effect on the spins' dynamics, and can be safely ignored
+ in the analysis of most experiments.
+ As such, with a linearly-polarized 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ field, half of the rf power is wasted.
+ In NMR, this rarely poses a large enough problem to address, since doing
+ so requires non-standard coil designs and resonance circuits.
+ In these configurations, changing the sample is often difficult.
+ On the other hand, in MRI the wasted power is absorbed by the patient,
+ posing limitations on 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ strength and duration.
+ In modern MRI scanners, this is addressed by using quadrature coils 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "GE2005,Glover1985"
+literal "true"
+
+\end_inset
+
+.
+ In the most simple configuration, two perpendicular linearly-polarized
+ 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ coils are used.
+ When transmitting, the sinusoidal current in the two coils has a relative
+ phase shift of 90
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+, producing circular 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ polarization.
+ Due to the large bore of MRI scanners, coils with geometries designed for
+ imaging specific regions can be placed directly on the patient.
+\end_layout
+
+\begin_layout Standard
+Returning to the simple experiment, when 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ is turned on with an amplitude 
+\begin_inset Formula $\omega_{1}\gg T_{1}^{-1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega_{1}\gg T_{2}^{-1}$
+\end_inset
+
+, relaxation effects may be temporarily ignored.
+ If the total duration of the 
+\begin_inset Formula $B_{1}$
+\end_inset
+
+ pulse is 
+\begin_inset Formula $\tau$
+\end_inset
+
+, then in the rotating frame
+\begin_inset Formula 
+\[
+\mathbf{M}(\tau)=M_{0}\cos(\omega_{1}\tau)\hat{z}-M_{0}\sin(\omega_{1}\tau)\hat{y}.
+\]
+
+\end_inset
+
+Let's consider the case of 
+\begin_inset Formula $\omega_{1}\tau=\tfrac{\pi}{2}$
+\end_inset
+
+, which is a 
+\begin_inset Quotes eld
+\end_inset
+
+90-degree
+\begin_inset Quotes erd
+\end_inset
+
+ pulse.
+ Immediately following this pulse, 
+\begin_inset Formula $\mathbf{M}(\tau)=-M_{0}\hat{y}$
+\end_inset
+
+, which is a 90
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+ rotation from equilibrium.
+ With components in the transverse plane, 
+\begin_inset Formula $\mathbf{M}$
+\end_inset
+
+ precesses around 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+ at 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The precessing magnetization induces a voltage in the coil, which is now
+ used as a receiver.
+ The voltage is converted into a complex signal, 
+\begin_inset Formula $S(t)$
+\end_inset
+
+.
+ Up to a constant, this is given by
+\begin_inset Formula 
+\begin{align}
+S(t) & =M_{transverse}(t)\exp\left(i(\omega_{0}-\omega_{ref})t\right)\label{eq:theory:complex-S(t)}\\
+ & =\sqrt{M_{x}(t)^{2}+M_{y}(t)^{2}}\exp\left(i(\omega_{0}-\omega_{ref})t\right),\nonumber 
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $M_{transverse}(t)$
+\end_inset
+
+ is the magnitude of the magnetization in the transverse (
+\begin_inset Formula $x$
+\end_inset
+
+-
+\begin_inset Formula $y$
+\end_inset
+
+) plane precessing at 
+\begin_inset Formula $\omega_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega_{ref}$
+\end_inset
+
+ is a reference frequency corresponding to the center of the spectrum.
+\end_layout
+
+\begin_layout Standard
+Taking into account 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ relaxation, the signal after the 
+\begin_inset Formula $90^{\circ}$
+\end_inset
+
+ pulse is
+\begin_inset Formula 
+\begin{equation}
+S(t)=M_{0}\exp\left(-t/T_{2}\right)\exp\left(i(\omega_{0}-\omega_{ref})t\right).\label{eq:theory:FID-lorentzian}
+\end{equation}
+
+\end_inset
+
+The 
+\begin_inset Formula $90^{\circ}$
+\end_inset
+
+ pulse gives the maximum signal intensity.
+ If a 
+\begin_inset Formula $45^{\circ}$
+\end_inset
+
+ pulse was used instead, 
+\begin_inset Formula $M_{transverse}(0)$
+\end_inset
+
+ and 
+\begin_inset Formula $S(0)$
+\end_inset
+
+ would both be reduced by 
+\begin_inset Formula $\tfrac{1}{\sqrt{2}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The NMR signal acquired with a single pulse is called the Free Induction
+ Decay (FID
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "FID"
+description "Free Induction Decay"
+literal "true"
+
+\end_inset
+
+).
+ The Fourier transform of the FID gives the NMR spectrum, which in this
+ case is 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cavanagh2007"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+S(\omega) & =\mathcal{F}\left\{ S(t)u(t)e^{i\phi_{0}}\right\} \nonumber \\
+ & =e^{i\phi_{0}}\left[\frac{T_{2}}{1+\left(\omega-\Delta\omega\right)^{2}T_{2}^{2}}-i\frac{\left(\omega-\Delta\omega\right)T_{2}^{2}}{1+\left(\omega-\Delta\omega\right)^{2}T_{2}^{2}}\right],\label{eq:theory:spectrum-lorentzian}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\Delta\omega=\omega_{0}-\omega_{ref}$
+\end_inset
+
+.
+ The first and second terms in the brackets represent the absorption and
+ dispersion parts of the Lorentzian lineshape.
+ Two factors have been explicitly inserted prior to the Fourier transform:
+ the zeroth-order phase factor, 
+\begin_inset Formula $e^{i\phi_{0}},$
+\end_inset
+
+ and the unit step or Heaviside function 
+\begin_inset Formula $u(t)$
+\end_inset
+
+, given by
+\begin_inset Formula 
+\[
+u(t)=\begin{cases}
+0 & t<0\\
+1 & t>0.
+\end{cases}
+\]
+
+\end_inset
+
+The first is necessary to complete the Fourier transform properly since
+ 
+\begin_inset Formula $S(t<0)=0$
+\end_inset
+
+.
+ The second arises from the NMR receiver chain.
+ In NMR, spectra are represented using the absorption lineshapes, so phase
+ correcting 
+\begin_inset Formula $S(\omega)$
+\end_inset
+
+ (multiplying by 
+\begin_inset Formula $e^{-i\phi_{0}}$
+\end_inset
+
+ for a zeroth order correction) is necessary to isolate the pure absorption
+ part.
+ Exponential decay of the FID from the 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ time corresponds to a Lorentzian lineshape in the frequency domain.
+ Evidently, the Bloch equations naturally lead to a Lorentzian lineshape.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch ChildOnly
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "/home/alan/Dropbox/publications/all_refs"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Click on Branch: ChildOnly then click on BibTeX Generated Bibliography and
+ select your .bib file.
+ It allows you to render this page on its own.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
